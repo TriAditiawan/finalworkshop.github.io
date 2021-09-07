@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Open sans";
+    src: url(./OpenSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open sans",sans-serif;
+}
+.container{
+    width: 90%;
+    margin:15px auto;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap: 5px;
+    list-style: none;
+
+}
+nav ul li{
+    height: 50px ;
+    background-color: blue;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 50px ;
+    padding-top: 10px;
+    background-color: white;
+
+}
+.sticky ul li{
+    height: 40px ;
+    line-height: 40px;
+}
+header{
+    height: 100px;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    color: blue;
+}
+header p{
+    text-align: center;
+    font-size: 14px;
+    color: #515151;
+    margin-top: -25px;
+    z-index: 9;
+    color: blue;
+
+}
+.selamat{
+    margin-top: 20px;
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 2px;
+    
+}
+.selamat p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.content img{
+    float: left;
+    width: 300px;
+    margin: 15px;
+}
+.content p{
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-top: 15px;
+    text-align: justify;
+} 
+footer{
+    height: 70px;
+    background-color: #212121;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 70px;
+}
+footer p span{
+    color: blue;
+}
+.content table,
+tr,
+td,
+th {
+  border: 1px solid rgb(0, 0, .5);
+  border-collapse: collapse;
+  padding: 10px 0;
+
+}
+
+th,
+td {
+  padding: 0 10px;
+
+}
+
+table {
+  width: 80%;
+  margin:50px auto;
+  margin-bottom: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #0d6efd;
+  color: white;
+
+}
+
+.content h1{
+    margin-left: 50px ;
+    margin: 25px 0;
+  }
+ .p{
+      color: blue;
+      background-color: blue;
+  }
+@media (max-width:576px) {
+    .content p{
+        font-size: 14px !important;
+    }
+    
+}

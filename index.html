@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Workshop</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav>
+    <div class="nav-brand">
+      <img src="./img/logo-nav.png" alt="" />
+      <h3>SMKICBI</h3>
+    </div>
+    <ul class="nav-list">
+      <li><a href="./index.html">Beranda</a></li>
+      <li><a href="./profil.html">Profil</a></li>
+      <li><a href="./galeri.html">Galeri</a></li>
+      <li><a href="./guru.html">Guru & staf</a></li>
+      <li><button class="btn-nav" onclick="setDarkMode()" id="darkBtn">Gelap</button></li>
+    </ul>
+  </nav>
+  <!-- akhir navbar -->
+  <!-- jumbotron -->
+  <section id="jumbotron">
+    <div class="jumbotron">
+      <h1>SMK INFORMATIKA CBI</h1>
+      <p>
+        Selamat Datang di Website Tidak Resmi SMK Informatika CBI. <br />
+        Sekolah SMK Nomor 1 di Sukabumi, dengan kompetensi keahlian Rekayasa Perangkat Lunak dan Multimedia
+      </p>
+    </div>
+  </section>
+  <!-- akhir jumbotron -->
+  <!-- jurusan -->
+  <section id="jurusan">
+    <div class="jurusan">
+      <div class="rpl">
+        <img src="./img/rpl2.jpg" alt="" />
+        <h3>Rekayasa perangkat lunak</h3>
+      </div>
+      <div class="mm">
+        <img src="./img/mm2.jpg" alt="" />
+        <h3>Multimedia</h3>
+      </div>
+    </div>
+  </section>
+  <!-- akhir jurusan -->
+  <!-- selamat datang -->
+  <div class="selamat-datang">
+    <div class="kiri">
+      <img src="./img/52.png" alt="" />
+    </div>
+    <div class="kanan">
+      <p class="ijo">Hallo</p>
+      <h1>Selamat datang di website tidak resmi SMK Informatika CBI.</h1>
+      <p class="abu">Building a vision.</p>
+      <p class="abu">SMK Informatika CBI merupakan sekolah menengah kejuruan yang berlokasi di Jl. Koramil Cicurug</p>
+    </div>
+  </div>
+  <!-- akhir selamat datang -->
+
+  <!-- galeri -->
+  <section id="galeri">
+    <h3>Gallery Foto</h3>
+    <div class="garis"></div>
+    <div class="galeri">
+      <img src="./img/galeri-gede1.jpg" class="img-gede1" alt="" />
+      <img src="./img/galeri kecil1.jpg" class="img-kecil1" alt="" />
+      <img src="./img/galeri-kecil2.jpg" class="img-kecil2" alt="" />
+      <img src="./img/galeri-gede2.jpg" class="img-gede2" alt="" />
+    </div>
+    <a href="./galeri.html" class="btn-lihat">Lihat lebih banyak</a>
+  </section>
+  <!--akhir galeri -->
+  <!-- gabung -->
+  <div class="gabung">
+    <h3>Daftarkan diri anda sekarang</h3>
+    <p>Bergabunglah bersama kami, menjadi bagian dari kami untuk menciptakan insan berkualitas, guna membangun Negara
+      ini.</p>
+    <button class="btn-lihat">Daftar sekarag</button>
+  </div>
+  <!--akhir gabung -->
+  <!-- footer -->
+  <div class="footer">
+    <ul class="satu">
+      <li class="judul">Kontak Kami</li>
+      <li>(0266) 734-796</li>
+      <li>SMK Informatika CBI</li>
+      <li>Jl. Koramil RT 02/02 Ds. Purwasari Kec. Cicurug Kab. Sukabumi Kode Pos 43357</li>
+      <li>See Direction</li>
+    </ul>
+
+    <ul class="dua">
+      <li class="judul">Pintasan</li>
+      <li>Tentang Kami</li>
+      <li>Kontak Kami</li>
+      <li>Seputar Sekolah</li>
+      <li>Pendaftaran</li>
+      <li>Acara</li>
+      <li>Berita</li>
+    </ul>
+    <ul class="tiga">
+      <li class="judul">Pendataran</li>
+      <li>Bergabunglah bersama kami, menjadi bagian dari kami untuk menciptakan insan berkualitas, guna membangun Negara
+        ini.</li>
+      <li><button class="btn-lihat2">Daftar sekarang</button></li>
+    </ul>
+    <ul class="empat">
+      <h3>SMK Informatika CBI</h3>
+    </ul>
+  </div>
+  <footer>© 2021 SMK Informatika CBI | Tri</footer>
+  <!-- akhirfooter -->
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 30) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    };
+
+  </script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
