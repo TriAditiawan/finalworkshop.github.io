@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tri</title>
+  </head>
+  <body>
+    <h2>Daftar <span>Online</span> Scout Legion</h2>
+    <table>
+      <tr>
+        <th colspan="3">Biodata Pendaftaran</th>
+      </tr>
+      <tr>
+        <td>Nama lengkap</td>
+        <td>:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Golongan Darah</td>
+        <td>:</td>
+        <td>
+          <input type="radio" id="radio1" value="A" name="radio" />
+          <label for="radio1">A</label>
+          <input type="radio" id="radio2" value="B" name="radio" />
+          <label for="radio2">B</label>
+          <input type="radio" id="radio3" value="AB" name="radio" />
+          <label for="radio3">AB</label>
+          <input type="radio" id="radio4" value="O" name="radio" />
+          <label for="radio4">O</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Kemampuan</td>
+        <td>:</td>
+        <td>
+          <input type="checkbox" id="checkbock1" value="1" />
+          <label for="checkbock1"> Manuver 3D</label>
+          <input type="checkbox" id="checkbock2" value="2" />
+          <label for="checkbock2"> Senapan</label>
+          <input type="checkbox" id="checkbock3" value="3" />
+          <label for="checkbock3"> Dual pedang</label>
+          <input type="checkbox" id="checkbock4" value="4" />
+          <label for="checkbock4"> Titan shifter</label>
+        </td>
+      </tr>
+      <tr>
+        <td>User name</td>
+        <td>:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Tanggal lahir</td>
+        <td>:</td>
+        <td><input type="date" /></td>
+      </tr>
+      <tr>
+        <td>Foto</td>
+        <td>:</td>
+        <td><input type="file" /></td>
+      </tr>
+      <tr>
+        <th colspan="3"><button>Daftar</button></th>
+      </tr>
+    </table>
+    <div>
+      <h3>Berikut kriteria pendaftaran menggunakan <span>List Numbering:</span></h3>
+      <ul>
+        <li>Percaya Diri</li>
+        <li>Mampu Bekerja Dalam Tim</li>
+        <li>Mampu Berkuda</li>
+        <li>Mampu Bekerja Dalam Tekanan</li>
+        <li>Diutamakan Domisili Terdekat</li>
+        <li>Gak punya huruf lucida handwriting nya</li>
+      </ul>
+    </div>
+
+    <div>WANTED</div>
+    <div>
+      <img src="./logo-nav.png" alt="" />
+    </div>
+    <script>
+      function allTd() {
+        document.querySelectorAll("td").forEach((el) => {
+          el.style.border = "1px solid black";
+        });
+      }
+      function allTh() {
+        document.querySelectorAll("th").forEach((el) => {
+          el.style.border = "1px solid black";
+        });
+      }
+      allTd();
+      allTh();
+      var x = window.matchMedia("(max-width: 576px)");
+      const gataumaungasihnamapa = document.getElementsByTagName("table")[0];
+      const Gataumaungasihnamapa = document.getElementsByTagName("tr")[0];
+      const gAtaumaungasihnamapa = document.getElementsByTagName("td")[0];
+      const gaTaumaungasihnamapa = document.getElementsByTagName("input")[0];
+      const gatAumaungasihnamapa = document.getElementsByTagName("td")[3];
+      const gataUmaungasihnamapa = document.getElementsByTagName("span")[0];
+      const gatauMaungasihnamapa = document.getElementsByTagName("h2")[0];
+      const gataumAungasihnamapa = document.getElementsByTagName("tr")[4];
+      const gataumaUngasihnamapa = document.getElementsByTagName("input")[9];
+      const gataumauNgasihnamapa = document.getElementsByTagName("td")[12];
+      const gataumaunGasihnamapa = document.getElementsByTagName("td")[15];
+      const gataumaungAsihnamapa = document.getElementsByTagName("td")[18];
+      const gataumaungaSihnamapa = document.getElementsByTagName("input")[10];
+      const gataumaungasIhnamapa = document.getElementsByTagName("input")[11];
+      const gataumaungasiHnamapa = document.getElementsByTagName("input")[12];
+      const gataumaungasihNamapa = document.getElementsByTagName("button")[0];
+      const gataumaungasihnAmapa = document.getElementsByTagName("div")[0];
+      const gataumaungasihnaMapa = document.getElementsByTagName("ul")[0];
+      const gataumaungasihnamaPa = document.getElementsByTagName("li")[1];
+      const gataumaungasihnamapA = document.getElementsByTagName("li")[2];
+      const GAtaumaungasihnamapa = document.getElementsByTagName("li")[3];
+      const GaTaumaungasihnamapa = document.getElementsByTagName("li")[4];
+      const GatAumaungasihnamapa = document.getElementsByTagName("li")[5];
+      const GataUmaungasihnamapa = document.getElementsByTagName("div")[1];
+      const GatauMaungasihnamapa = document.getElementsByTagName("div")[2];
+      const GataumAungasihnamapa = document.getElementsByTagName("img")[0];
+
+      gataumaungasihnamapa.style.border = "15px solid #01FFFF";
+      gataumaungasihnamapa.style.margin = "auto";
+      Gataumaungasihnamapa.style.background = "linear-gradient(#00FFF6,#FF00FF)";
+      gAtaumaungasihnamapa.style.fontSize = "1.5em";
+      gaTaumaungasihnamapa.style.backgroundColor = "#FFC0CB";
+      gaTaumaungasihnamapa.style.outline = "none";
+      gaTaumaungasihnamapa.style.border = "1px solid #eaeaea";
+      (gatAumaungasihnamapa.style.border = "3px solid #0500FF "), "!important";
+      gataUmaungasihnamapa.style.color = "#C660DD";
+      gataUmaungasihnamapa.style.fontStyle = "italic";
+      gatauMaungasihnamapa.style.textAlign = "center";
+      gataumAungasihnamapa.style.height = "50px";
+      gataumAungasihnamapa.style.background = "linear-gradient(to bottom, #C7FF00, #0449FC, #00FF88)";
+      gataumaUngasihnamapa.style.width = "98%";
+      gataumaUngasihnamapa.style.outline = "none";
+      gataumaUngasihnamapa.style.border = "none";
+      gataumaUngasihnamapa.style.borderRadius = "25px";
+      gataumauNgasihnamapa.style.backgroundColor = "#5455FF";
+      gataumaunGasihnamapa.style.backgroundColor = "#999AFF";
+      gataumaungAsihnamapa.style.backgroundColor = "#BBBCFF";
+      gataumaungaSihnamapa.style.backgroundColor = "#FEA500";
+      gataumaungaSihnamapa.style.outline = "none";
+      gataumaungaSihnamapa.style.borderRadius = "25px";
+      gataumaungaSihnamapa.style.border = "none";
+      gataumaungasIhnamapa.style.backgroundColor = "#AAFFAA";
+      gataumaungasIhnamapa.style.outline = "none";
+      gataumaungasIhnamapa.style.border = "none";
+      gataumaungasIhnamapa.style.padding = "1px 5px";
+      gataumaungasIhnamapa.style.borderRadius = "25px";
+      gataumaungasiHnamapa.style.border = "5px solid yellow";
+      gataumaungasihNamapa.style.border = "7px solid #82017E";
+      gataumaungasihnAmapa.style.margin = "auto";
+      gataumaungasihnaMapa.style.listStyle = "lower-roman";
+      gataumaungasihnaMapa.style.color = "green";
+      gataumaungasihnamaPa.style.color = "#FAA904";
+      gataumaungasihnamapA.style.color = "red";
+      GAtaumaungasihnamapa.style.color = "blue";
+      GaTaumaungasihnamapa.style.color = "#FA00FF";
+      GatAumaungasihnamapa.style.color = "black";
+      GatAumaungasihnamapa.style.fontSize = "1.3em";
+      GataUmaungasihnamapa.style.width = "90%";
+      GataUmaungasihnamapa.style.margin = "auto";
+      GataUmaungasihnamapa.style.backgroundColor = "black";
+      GataUmaungasihnamapa.style.padding = "25px 0";
+      GataUmaungasihnamapa.style.color = "white";
+      GataUmaungasihnamapa.style.textAlign = "center";
+      GataUmaungasihnamapa.style.fontSize = "28px";
+      GataUmaungasihnamapa.style.borderStyle = "dashed";
+      GataUmaungasihnamapa.style.borderWidth = "5px";
+      GataUmaungasihnamapa.style.borderColor = "red";
+      GatauMaungasihnamapa.style.width = "250px";
+      GatauMaungasihnamapa.style.margin = "15px auto";
+      GatauMaungasihnamapa.style.padding = "15px ";
+      GatauMaungasihnamapa.style.boxShadow = "5px  5px 30px blue ";
+      GatauMaungasihnamapa.style.backgroundColor = "#FFA806";
+      GataumAungasihnamapa.style.display = "block";
+      GataumAungasihnamapa.style.margin = "auto";
+      GataumAungasihnamapa.style.width = "100%";
+
+      function myFunction(x) {
+        if (x) {
+          gataumaungasihnAmapa.style.width = "95%";
+        } else {
+          (gataumaungasihnAmapa.style.width = "400px"), "!important";
+        }
+      }
+      myFunction();
+    </script>
+  </body>
+</html>
